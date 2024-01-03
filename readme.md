@@ -3,7 +3,7 @@
 
 # 🥮 A challenge to myself
 
-Bem-vindo(a). Este é o desafio!
+Bem-vindo(a). 
 
 O objetivo deste desafio é avaliar minhas habilidades de programação.
 Nele quero me desafiar a manter uma constância em um projeto e poder ter a sensação de "Eu consigo programar 😊".
@@ -17,6 +17,8 @@ Estou iniciando no mundo da programação e espero que esse ano eu consiga tirar
  email *sara2006costa@gmail.com*
  Insta _ .saracsg. _
 Espero que goste!
+
+> ⚠️ **É importante falar que este projeto está em andamento 03/01/24**
 
 
 # 🥮 Contexto
