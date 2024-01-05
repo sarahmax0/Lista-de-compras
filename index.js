@@ -17,8 +17,16 @@ const shoppingListEl = document.getElementById("shopping-list")
 addButtonEl.addEventListener("click", function(){
     let inputValue = inputFieldEl.value
     push(shoppingListInDB, inputValue)
-    inputFieldEl.value = " "
 
-    shoppingListEl.innerHTML += `<li>${inputValue}</li>`
+    ClearInputField()
+    getDataFromInput(inputValue)
     
 })
+
+function ClearInputField() {
+    inputFieldEl.value = " "
+}
+
+function getDataFromInput(getInputValueFromTopFunction) {
+    shoppingListEl.innerHTML += `<li>${getInputValueFromTopFunction}</li>`
+}
