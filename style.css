@@ -5,6 +5,7 @@ html, css {
     background-color: #eef0f4;
     text-align: center;
     color: #432000;
+    user-select: none;
 }
 
 .container {
