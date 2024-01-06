@@ -4,6 +4,7 @@ html, css {
     font-family: 'Rubik', sans-serif;
     background-color: #eef0f4;
     text-align: center;
+    color: #432000;
 }
 
 .container {
@@ -41,6 +42,11 @@ button {
     font-size: 20px;
 }
 
+button:hover {
+    background-color: #432000;
+    cursor: pointer;
+}
+
 ul {
     list-style-type: none;
     flex-wrap: wrap;
@@ -57,5 +63,10 @@ ul li {
     flex-grow: 1;
     font-size: 20px;
     text-align: center;
+}
+
+ul li:hover {
+    background-color: #FFECC7;
+    cursor: pointer;
 }
 
