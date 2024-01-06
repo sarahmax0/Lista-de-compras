@@ -1,5 +1,5 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"
-import { getDatabase, ref, push, onValue } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
+import { getDatabase, ref, push, onValue, remove } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
 
 const appSettings = {
     databaseURL: "https://realtime-database-abb76-default-rtdb.firebaseio.com/"
@@ -53,6 +53,14 @@ function getDataFromInput(item) {
     let itemValue = item[1]
 
     let newEl = document.createElement("li")
-    newEl.textContent = itemID
+    newEl.textContent = itemValue
+
+    newEl.addEventListener("dblclick", function(){
+        
+        let exactLocationOfStoryInDB = ref(database, `shoppingList/${itemID}`)
+
+        remove(exactLocationOfStoryInDB)
+    })
+
     shoppingListEl.append(newEl)
 }
