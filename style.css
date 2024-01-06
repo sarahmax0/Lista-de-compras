@@ -41,4 +41,21 @@ button {
     font-size: 20px;
 }
 
+ul {
+    list-style-type: none;
+    flex-wrap: wrap;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+ul li {
+    padding: 15px;
+    background-color: #FFFDF8;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    flex-grow: 1;
+    font-size: 20px;
+    text-align: center;
+}
 
